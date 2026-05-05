@@ -1,0 +1,14 @@
+# Abaikan seluruh file dan folder di dalam project
+*
+
+# Pengecualian: jangan abaikan file .gitignore ini
+!.gitignore
+
+# Pengecualian: jangan abaikan folder praktikum7
+!praktikum7/
+
+# Abaikan seluruh isi di dalam folder praktikum7
+praktikum7/*
+
+# Pengecualian: HANYA boleh melacak file rsa_marimo.py di dalam praktikum7
+!praktikum7/rsa_marimo.py
