@@ -390,7 +390,7 @@ def __(a_input, b_input, c_input, d_input, func_select, mo, s_input, t_input, x_
             <div class="crypto-card">
                 <div class="card-title">Kalkulasi MD5: {f_type}(B,C,D)</div>
                 <div style="font-size: 0.95rem; margin-bottom: 16px;">
-                    Fungsi Nonlinear: <code class="code-nonlinear">{expr_str}</code> &rarr; <code>0x{func_val:08X}</code><br/>
+                    Fungsi Nonlinear: <code class="code-nonlinear">{expr_str}</code> &rarr; <code>0x{func_val:08X}</code> (<code style="font-size: 0.85rem;">{func_val:032b}</code>)<br/>
                     Modulo Sum: <code>A + {f_type} + X[k] + T[i]</code> &rarr; <code>0x{sum_val:08X}</code><br/>
                     Rotate Left (<<< {s_val}): &rarr; <code class="code-success">0x{rotated:08X}</code>
                 </div>
