@@ -23,3 +23,7 @@ praktikum9/*
 !praktikum9/cipher9.py
 !praktikum9/marimo_md5.py
 
+# Abaikan dokumen/jawaban UAS di folder docs
+docs/
+
+
