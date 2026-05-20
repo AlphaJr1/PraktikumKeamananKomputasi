@@ -12,3 +12,14 @@ praktikum7/*
 
 # Pengecualian: HANYA boleh melacak file rsa_marimo.py di dalam praktikum7
 !praktikum7/rsa_marimo.py
+
+# Pengecualian: jangan abaikan folder praktikum9
+!praktikum9/
+
+# Abaikan seluruh isi di dalam folder praktikum9
+praktikum9/*
+
+# Pengecualian: HANYA boleh melacak file cipher9.py dan marimo_md5.py di dalam praktikum9
+!praktikum9/cipher9.py
+!praktikum9/marimo_md5.py
+

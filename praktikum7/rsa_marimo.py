@@ -4,7 +4,7 @@ __generated_with = "0.23.5"
 app = marimo.App()
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _():
     import marimo as mo
     import math
